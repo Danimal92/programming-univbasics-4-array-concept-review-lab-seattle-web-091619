@@ -4,7 +4,11 @@ end
 
 def find_max_value(array)
   counter = 0
-  while 
+  for i in array
+    if array[i] > counter
+      counter = array[i]
+    end
+  end
 end
 
 def find_min_value(array)
