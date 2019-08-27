@@ -12,8 +12,17 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  while counter < array.length do |counter|
-    if 
+  biggest_num = 0
+  counter = 0
+  while counter < array.length |counter|
+    if array[counter] > array[counter+1]
+      biggest_num = array[counter]
+    end
+    else
+      biggest_num = array[counter+1]
+    end
+    return biggest_num
+  end
     
 end
 
