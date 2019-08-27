@@ -35,13 +35,10 @@ def find_min_value(array)
     if array[counter] < smallest_num
       smallest_num = array[counter]
       counter += 1
-    
     else
       counter += 1
     end
-
-    
   end
   return smallest_num
 end
-end
+
