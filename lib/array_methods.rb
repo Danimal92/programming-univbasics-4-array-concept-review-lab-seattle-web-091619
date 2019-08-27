@@ -15,11 +15,8 @@ def find_max_value(array)
   biggest_num = 0
   counter = 0
   while counter < array.length |counter|
-    if array[counter] > counter+1]
+    if array[counter] > biggest_num
       biggest_num = array[counter]
-    
-    else
-      biggest_num = array[counter+1]
     end
     return biggest_num
   end
