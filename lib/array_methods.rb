@@ -44,4 +44,4 @@ def find_min_value(array)
   end
   return smallest_num
 end
-end
+
